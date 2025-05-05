@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgxudbo8kav33"]
+
+[ext_resource type="Script" uid="uid://f62h0gjep0pg" path="res://Scripts/main_scene.gd" id="1_hpc76"]
+[ext_resource type="PackedScene" uid="uid://dyk40x3hgce1y" path="res://Scenes/control.tscn" id="2_tr2i4"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_hpc76")
+
+[node name="Control" parent="." instance=ExtResource("2_tr2i4")]
+offset_left = 131.0
+offset_top = 79.0
+offset_right = 495.0
+offset_bottom = 521.0
+button_text = "Click me!"
